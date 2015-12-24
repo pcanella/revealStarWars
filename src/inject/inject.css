@@ -1,0 +1,19 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+body{
+    background:red !important;
+}
+
+div.content .linkflair-spoil a.title {
+    background: none !important;
+    color: #000 !important;
+}
+
+div.content .linkflair-spoil a.title:before {
+    content:"" !important;
+}
+
+div.content .linkflair-spoil a.title.revealr{
+    color:red !important;
+}
